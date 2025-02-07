@@ -1,0 +1,29 @@
+{
+  "name": "@mtdst/v",
+  "publish": true,
+  "private": false,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./dist/v.umd.js",
+  "module": "./src/v.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/v.es.js",
+      "require": "./dist/v.umd.js"
+    }
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "lodash-es": "^4.17.21",
+    "vite": "^6.1.0",
+    "vue": "^3.5.13"
+  }
+}
