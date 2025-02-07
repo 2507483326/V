@@ -67,11 +67,6 @@ async function login() {
 
 ## 如何使用
 
-### 1. 安装 @mtdst/v
-```
- npm install @mtdst/v
-```
-
 ### 1. `useValid` 函数
 
 `useValid` 是核心函数，用于初始化表单校验逻辑。
